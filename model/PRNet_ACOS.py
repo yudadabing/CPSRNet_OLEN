@@ -8,7 +8,7 @@ from torch.nn.modules.conv import _ConvNd
 from torch.nn.modules.utils import _pair
 
 
-# gated Spatial conv2d from GSCNN
+# Cross-Branch Activation Module(CBAM)
 class GatedSpatialConv2d(_ConvNd):
     def __init__(self, in_channels, gate_channels, out_channels, kernel_size=1, bn=False, stride=1, padding=0, dilation=1, groups=1, bias=False):
         kernel_size = _pair(kernel_size)
@@ -158,8 +158,8 @@ class ResidualGroup(nn.Module):
         # res=self.noise(res )     
         return res
 
-
-class FuseModules(nn.Module):  ##fusion-net
+#Related-Supervised Residual Fusion Module(RSRFM)
+class FuseModules(nn.Module): 
     def __init__(self, conv=Conv, n_feat=64, kernel_size=3, act=nn.ReLU(True), bias=False):
         super(FuseModules, self).__init__()
         modules_body = [
