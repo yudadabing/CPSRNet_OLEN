@@ -122,33 +122,6 @@ class GANLoss(nn.Module):
         return loss
 
 
-# class AcosLoss(nn.modules):
-#     def __init__(self):
-#         super(AcosLoss,self).__init__()
-
-#     def forward(x,y):
-
-#         x_norm=x/norm(x,dim=1,keepdim=True)
-#         y_norm=y/norm(y,dim=1,keepdim=True)
-
-#         xy_norm=torch.matmul(x_norm,y_norm)
-
-#         return xy_norm
-        
-# class AcosLoss(nn.Module):
-#     """Charbonnier Loss"""
-
-#     def __init__(self):
-#         super(AcosLoss, self).__init__()
-   
-
-#     def forward(self, x, y):
-#         x_norm=x/norm(x,dim=1,keepdim=True)
-#         y_norm=y/norm(y,dim=1,keepdim=True)
-
-#         xy_norm=torch.mean(torch.matmul(x_norm,y_norm))
-#         loss=1-xy_norm
-#         return loss
 
 class AcosLoss(nn.Module):
     """AcosLoss Loss"""
