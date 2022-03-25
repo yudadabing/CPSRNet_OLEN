@@ -4,7 +4,7 @@
 
 - [Background](#background)
 - [test](#test)
-- [test_images](#test images)
+- [test_images](#test_images)
 - [Citation](#Citation)
 - [Note](#Note)
 
@@ -24,7 +24,7 @@ image\ : partial testing set.
 $ python test.py
 ```
 
-## test images
+## test_images
 
 partial test set.:(images from Miki[1], Simeng[2] and DoFP30([3]+Polar-SR))
 
