@@ -3,9 +3,9 @@
 ## Table of Contents
 
 - [Background](#background)
-- [test](# test)
-- [ test images](# test images)
-- [Citation](# Citation)
+- [test](#test)
+- [ test images](#test images)
+- [Citation](#Citation)
 - [Note](#Note)
 
 ## Background
