@@ -1,4 +1,4 @@
-# Color Polarization Image Super-Resolution Reconstruction via Cross-Branch Supervised Learning Strategy
+# Color Polarization Image Super-Resolution Reconstruction via Cross-Branch Supervised Learning Strategy  (Accpetd by Optics and Lasers in Engineering )
 
 ## Table of Contents
 
